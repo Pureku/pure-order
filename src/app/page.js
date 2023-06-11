@@ -7,19 +7,21 @@ import Pagination from "@/components/pagination.component";
 import Card from "@/components/card.component";
 import Content from "@/components/content.component";
 import ButtonTop from "@/components/button_top.component";
+import Layout from "@/components/layout.component";
 
 export default function Home() {
   return (
     <div>
       <Nav />
       <Tab />
-      <div className="flex w-full">
+      <Layout />
+      {/* <div className="flex w-full">
         <div className="flex-auto max-w-4xl min-w-0 py-4 lg:px-8 lg:pt-8 pb:12 xl:pb-24 lg:pb-16 bg-base-100 px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Content />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <Pagination /> */}
       {/* <Card /> */}
       {/* <Content /> */}

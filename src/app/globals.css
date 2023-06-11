@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.svg-container {
+  width: 100%;
+  max-width: 50px; /* Set a maximum width for the SVG */
+  height: auto;
+}
