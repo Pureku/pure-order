@@ -12,7 +12,7 @@ const Tab = () => {
               <>
                 <div className="w-64 h-10 p-2 m-0 ">
                   <div className="place-content-center px-10">
-                    <button className="badge badge-outline badge-md px-1">
+                    <button className="badge badge-outline badge-md mx-8">
                       default
                     </button>
                   </div>
