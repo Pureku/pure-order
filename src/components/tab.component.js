@@ -11,9 +11,11 @@ const Tab = () => {
             return (
               <>
                 <div className="w-64 h-10 p-2 m-0 ">
-                  <button className="badge badge-outline badge-md">
-                    default
-                  </button>
+                  <div className="place-content-center px-10">
+                    <button className="badge badge-outline badge-md px-1">
+                      default
+                    </button>
+                  </div>
                 </div>
               </>
             );

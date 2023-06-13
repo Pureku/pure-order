@@ -14,14 +14,14 @@ export default function Home() {
     <div>
       <Nav />
       <Tab />
-      <Layout />
-      {/* <div className="flex w-full">
-        <div className="flex-auto max-w-4xl min-w-0 py-4 lg:px-8 lg:pt-8 pb:12 xl:pb-24 lg:pb-16 bg-base-100 px-4">
+      {/* <Layout /> */}
+      <div className="flex w-full">
+        <div className="flex-auto min-w-0 py-4 lg:px-12 lg:pt-12 pb:12 xl:pb-24 lg:pb-16 bg-[#f6f6f6] px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Content />
           </div>
         </div>
-      </div> */}
+      </div>
       {/* <Pagination /> */}
       {/* <Card /> */}
       {/* <Content /> */}
